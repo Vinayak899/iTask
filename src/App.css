@@ -1,0 +1,96 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+form{
+  width: 80vw;
+  padding: 2rem;
+  margin: auto;
+}
+.display-notes{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 1rem;
+  width: 80%;
+  margin: auto;
+}
+.note{
+  border: 1px solid black;
+  border-radius: 0.2rem;
+  padding: 0.8rem;
+  position: relative;
+}
+.heading-CRUD{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.CRUD{
+  display: flex;
+  gap: 0.7rem;
+}
+.note-heading{
+  display: inline;
+}
+#edit{
+  cursor: pointer;
+}
+#delete{
+  cursor: pointer;
+  margin-right: 0.2rem;
+}
+.note-desc{
+  margin-top: 0.5rem;
+}
+#tag{
+  margin-right: 0.2rem;
+}
+.note-tag{
+  position: absolute;
+  bottom: 0;
+  right: 0.8rem;
+}
+.login{
+  display: flex;
+}
+#user{
+  text-decoration: none;
+  font-size: 1rem;
+}
+#logout{
+  text-decoration: none;
+  font-size: 0.9rem;
+  place-self: end;
+}
+#nav{
+  display: flex;
+  justify-content: space-between;
+}
+#etitle{
+  width: 35%;
+}
+#edesc{
+  width: 35%;
+}
+#etag{
+  width: 35%;
+}
+.yourNotes{
+  margin-left: 9.5rem;
+  margin-bottom: 2rem;
+}
+.noNotesdiv{
+  width: 100vw;
+}
+.noNotes{
+  text-align: center;
+}
+.loginHeading{
+  margin-bottom: 2rem;
+}
+.userName{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
